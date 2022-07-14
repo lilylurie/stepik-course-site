@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+/* Убираем все отступы */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Шапка */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #007765;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding-bottom: 54px;
+    padding-top: 8px;
+}
+/* Ссылки в шапке */
+header a {
+    color: white;
+    text-decoration: none;
+}
+/* Логотип */
+.logo-image {
+    float: left;
+    padding-left: 10px;
+}
+/* Слова справа в шапке */
+.hat-links {
+    color: #fff;
+    font-family: 'Roboto Medium', sans-serif;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+/* Основное содержимое сайта */
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+/* Содержимое шапки */
+.header-container {
+    max-width: 1219px;
+    margin: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+/* Фон заголовка */
+.name {
+    background-image: url("images/papernetishereback.png");
+    padding: 160px;
+    background-size: contain;
+}
+/* Заголовок */
+.page-name {
+    text-align: center;
+    color: white;
+    font-weight: 500; /*Roboto Medium*/
+    font-size: 72px;
+}
+/* Заголовки второго уровня */
+h2 {
+    font-size: 64px;
+    color:#007765;
+    font-weight: 500;
+    text-align: center;
+    padding: 40px;
+    text-transform: capitalize;
+}
+/* Часть про problem */
+.problem-container {
+    /* padding: 40px; */
+    background-color: #EEEEEE;
+    padding-bottom: 50px;
+}
+/* Заголовок problem */
+.problem-name {
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* Текст problem */
+.problem p {
+    padding-bottom: 30px;;
+}
+/* Фон цитаты */
+.hero {
+    background-image: url("images/quoteback.png");
+    background-size: contain;
+    /* padding: 5% 31%; */
+    padding: 130px;
+    text-align: center;
+}
+/* Цитата */
+.megaquote {
+    font-style: italic;
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 920px;
+    margin: auto;
+}
+/* Прячем ссылку на верх страницы */
+#logo {
+    display: none;
+}
+/* Текст справа от лого PPC */
+.coin-intro {
+    display: flex;
+    padding: 20px;
+}
+/* Лого PPC */
+.PPC-logo {
+    max-width: 10%;
+    object-fit: contain;
+    padding-right: 40px;
+}
+/* Абзацы про PPC */
+.PPC p {
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+/* Фон team */
+.team {
+    background-color: #EEEEEE;
+}
+/* Отступ от блока PPC */
+.PPC {
+    padding-bottom: 50px;
+}
+/* 24px roboto 700 */
+/* Имена команды */
+.member-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #007765;
+}
+/* Фото команды */
+.member-photo {
+    border-radius: 50%;
+    max-width: 168px;
+    object-fit: contain;
+}
+.member {
+    text-align: center;
+    margin: 20px 60px;
+}
+.member-job {
+    font-style: italic;
+    color: black;
+    font-size: 18px;
+}
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    flex-grow: 1;
+}
+.team {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.end-box {
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.end-box p {
+    max-width: 540px;
+    margin: auto;
+}
