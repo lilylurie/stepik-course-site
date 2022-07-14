@@ -144,26 +144,31 @@ h2 {
     max-width: 168px;
     object-fit: contain;
 }
+/* Члены команды */
 .member {
     text-align: center;
-    margin: 20px 60px;
+    margin: 20px;
 }
+/* Должности */
 .member-job {
     font-style: italic;
     color: black;
     font-size: 18px;
 }
+/* Блоки team members */
 .team-members {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     text-align: justify;
     flex-grow: 1;
 }
+/* Блок с командой */
 .team {
     text-align: center;
     padding-bottom: 50px;
 }
+/* Футинг */
 .end-box {
     background-color: #333333;
     color: white;
@@ -173,6 +178,7 @@ h2 {
     padding-bottom: 50px;
     padding-top: 40px;
 }
+/* Текст футинга */
 .end-box p {
     max-width: 540px;
     margin: auto;
